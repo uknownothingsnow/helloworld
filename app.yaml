@@ -1,0 +1,17 @@
+application: helloworld
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /main
+  script: helloworld.py
+
+- url: /user
+  script: users.py
+
+- url: /form
+  script: form.py
+
+- url: /sign
+  script: form.py
